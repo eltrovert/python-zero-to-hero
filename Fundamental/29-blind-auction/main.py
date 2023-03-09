@@ -4,6 +4,8 @@ bids = {}
 biddingFinished = False
 
 def findHighestBidder(biddingRecord):
+    """ Return the highest bidder from the input bids dictionary
+    """
     highestBidder = ""
     highestBid = 0
     for bidder in biddingRecord:
