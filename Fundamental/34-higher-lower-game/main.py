@@ -17,6 +17,9 @@ def printData(generatedData):
     return f"{name}, a {description}, from {country}"
 
 def compare(dataA, dataB):
+    """Checks followers against user's guess 
+    and returns True if they got it right.
+    Or False if they got it wrong."""
     if dataA["followersCount"] > dataB["followersCount"]:
         return "a"
     else:
